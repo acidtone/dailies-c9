@@ -1,0 +1,17 @@
+body {
+  font-family: system-ui;
+  padding: 20rem 3rem;
+  background-color: #060f13;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+section > div {
+  background-color: #f0f3f5;
+  padding: 1rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.15);
+}

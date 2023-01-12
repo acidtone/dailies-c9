@@ -1,0 +1,17 @@
+/* Default heading styles for the card title */
+.card h2 {
+  font-size: 1em;
+}
+
+/* You can create a containment context on the container <div> using the container-type property: */
+.container {
+  container-type: inline-size;
+}
+
+
+/* Container query applied if the container is larger than 700px */
+@container (min-width: 700px) {
+  .card h2 {
+    font-size: 2em;
+  }
+}
